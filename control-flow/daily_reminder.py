@@ -3,7 +3,7 @@ print("Welcome to your daily reminder app.")
 
 #Request for task details 
 task = input("Enter your task: ").lower()
-priority = input("Priority (high/medium/low)")
+priority = input("Priority (high/medium/low): ").lower()
 time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 #match case to process outputs 
@@ -34,4 +34,3 @@ match priority:
 
     case _:
         print("Invalid priority. Please enter high, medium, or low.")
-        
